@@ -1,0 +1,132 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #015f86;
+    background-image: linear-gradient(21deg, #015174 0%, #007fae 50%, #1bc478 100%);
+
+}
+* {
+box-sizing: border-box;
+}
+/* header */
+.header__img {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 200px;
+    position: absolute;
+}
+/* Main */
+.main__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 90vh;
+    width: 100vw;
+}
+.info {
+    align-self: baseline;
+    padding-top: 100px;
+    color: white;
+    font-size: 25px;
+}
+/* Registro */
+.register {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.register__container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 3px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 40px;
+    height: 500px;
+    width: 400px;
+    box-shadow: 0px 0px 20px 10px rgb(0 0 0 / 50%);
+}
+.register__container h2 {
+    text-align: center;
+}
+.login__container--form {
+    display: flex;
+    flex-direction: column;
+}
+.input {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-left: 0;
+    border-top: 0;
+    border-right: 2px solid white;
+    border-bottom: 3px solid white;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    outline: none;
+    height: 50px;
+}
+
+.login__container--form label input{
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    color: white;       
+}
+.button {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+.button:hover {
+    text-decoration: underline;
+}
+
+.login__container--sesion {
+    font-size: 16px; 
+    text-align: center;
+}
+.login__container--sesion a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px; 
+    text-decoration: none;
+}
+.login__container--sesion a:hover {
+    text-decoration: underline;
+}
+/* footer */
+.footer {
+display: flex;
+align-items: center;
+height: 10vh;
+width: 100%;
+margin: 0;
+}
+
+.footer a {
+color: white;
+cursor: pointer;
+font-size: 14px;
+padding-left: 30px;
+text-decoration: none;
+}
+
+.footer a:hover {
+text-decoration: underline;
+}

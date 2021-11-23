@@ -1,0 +1,167 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #015f86;
+    background-image: linear-gradient(21deg, #015174 0%, #007fae 50%, #1bc478 100%);
+    display: flex;
+    height: 100vh;
+    flex-flow: column nowrap;
+    font-size: 16px;
+}
+* {
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+}
+
+.header {
+    height: 3rem;
+}
+
+.menu {
+    display: flex;
+}
+
+.header__img {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.container {
+    display: flex;
+    height: inherit;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.session__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 3px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 0px 50px;
+    height: 500px;
+    width: 400px;
+    box-shadow: 0px 0px 20px 10px rgb(0 0 0 / 50%);
+}
+.session__container h2 {
+    text-align: center;
+}
+.login__container--form {
+    display: flex;
+    flex-direction: column;
+}
+.input {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-left: 0;
+    border-top: 0;
+    border-right: 2px solid white;
+    border-bottom: 3px solid white;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    outline: none;
+    height: 50px;
+}
+
+.login__container--form label input{
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    color: white;       
+}
+.button {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+.button a {
+    color: white;
+}
+.button:hover {
+    text-decoration: underline;
+}
+.button:checked {
+    color: white;
+}
+
+.accesorios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.social .social__media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.social .social__media img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.login__container--sesion {
+    font-size: 16px; 
+    text-align: center;
+}
+.login__container--sesion a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px; 
+    text-decoration: none;
+}
+.login__container--sesion a:hover {
+    text-decoration: underline;
+}
+.footer {
+    height: 6rem;
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer a {
+color: white;
+cursor: pointer;
+font-size: 14px;
+padding-left: 30px;
+text-decoration: none;
+}
+
+.footer a:hover {
+text-decoration: underline;
+} 
