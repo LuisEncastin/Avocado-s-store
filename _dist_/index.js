@@ -1,6 +1,11 @@
 const baseUrl = "https://platzi-avo.vercel.app";
 const url = "https://platzi-avo.vercel.app/api/avo";
 const appNode = document.querySelector('#app')
+    appNode.addEventListener ('click', (event) => {
+        if(event.target.nodeName === 'H2') {
+            window.alert('Lo estamos logrando');
+        }
+    });
 
 // api de internacionalización intl
 //1 - format fechas.
